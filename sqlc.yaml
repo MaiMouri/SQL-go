@@ -1,0 +1,9 @@
+version: "1"
+project:
+    id: ""
+packages:
+  - path: "./db/sqlc"
+    name: "web_events"
+    engine: "postgresql"
+    schema: "./db/schema/"
+    queries: "./db/query/"

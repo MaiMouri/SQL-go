@@ -1,0 +1,43 @@
+-- Table Definition
+CREATE TABLE "public"."sales_reps" (
+    "id" int4,
+    "name" bpchar,
+    "region_id" int4
+);
+
+-- Table Definition
+CREATE TABLE "public"."web_events" (
+    "id" int4,
+    "account_id" int4,
+    "occurred_at" timestamp,
+    "channel" bpchar
+);
+
+CREATE TABLE "public"."region" (
+    "id" int4,
+    "name" bpchar
+);
+
+CREATE TABLE "public"."orders" (
+    "id" int4,
+    "account_id" int4,
+    "occurred_at" timestamp,
+    "standard_qty" int4,
+    "gloss_qty" int4,
+    "poster_qty" int4,
+    "total" int4,
+    "standard_amt_usd" numeric(10,2),
+    "gloss_amt_usd" numeric(10,2),
+    "poster_amt_usd" numeric(10,2),
+    "total_amt_usd" numeric(10,2)
+);
+
+CREATE TABLE "public"."accounts" (
+    "id" int4,
+    "name" bpchar,
+    "website" bpchar,
+    "lat" numeric(11,8),
+    "long" numeric(11,8),
+    "primary_poc" bpchar,
+    "sales_rep_id" int4
+);
