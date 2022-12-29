@@ -1,5 +1,8 @@
 # github.com/Masterminds/semver/v3 v3.2.0
 ## explicit; go 1.18
+# github.com/gin-contrib/cors v1.4.0
+## explicit; go 1.13
+github.com/gin-contrib/cors
 # github.com/gin-contrib/sse v0.1.0
 ## explicit; go 1.12
 github.com/gin-contrib/sse
@@ -50,10 +53,10 @@ github.com/jackc/pgpassfile
 # github.com/jackc/pgproto3/v2 v2.3.1
 ## explicit; go 1.12
 github.com/jackc/pgproto3/v2
-# github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b
+# github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a
 ## explicit; go 1.14
 github.com/jackc/pgservicefile
-# github.com/jackc/pgtype v1.12.0
+# github.com/jackc/pgtype v1.13.0
 ## explicit; go 1.13
 github.com/jackc/pgtype
 # github.com/jackc/pgx/v4 v4.17.2
@@ -64,7 +67,7 @@ github.com/jackc/pgx/v4/stdlib
 # github.com/jinzhu/inflection v1.0.0
 ## explicit
 github.com/jinzhu/inflection
-# github.com/jinzhu/now v1.1.4
+# github.com/jinzhu/now v1.1.5
 ## explicit; go 1.12
 github.com/jinzhu/now
 # github.com/json-iterator/go v1.1.12
@@ -95,11 +98,9 @@ github.com/pelletier/go-toml/v2/unstable
 ## explicit; go 1.17
 # github.com/shopspring/decimal v1.3.1
 ## explicit; go 1.13
-# github.com/ugorji/go/codec v1.2.7
+# github.com/ugorji/go/codec v1.2.8
 ## explicit; go 1.11
 github.com/ugorji/go/codec
-# github.com/xo/xo v1.2.3
-## explicit
 # golang.org/x/crypto v0.4.0
 ## explicit; go 1.17
 golang.org/x/crypto/pbkdf2
