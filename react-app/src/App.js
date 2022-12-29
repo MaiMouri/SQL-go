@@ -9,7 +9,11 @@ import { useSelector, useDispatch } from "react-redux";
 function App() {
   const { register, handleSubmit, formState: { errors } } = useForm();
   // const { register, handleSubmit } = useForm();
-  const onSubmit = data => console.log(data);
+  const onSubmit = (data) => {
+    console.log(data)
+    
+  };
+
   console.log(errors);
 
   const navigate = useNavigate();
